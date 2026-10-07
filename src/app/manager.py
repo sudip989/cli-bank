@@ -1,9 +1,9 @@
 from src.app.storage import load_accounts, save_accounts, save_transaction
-from src.models.accounts import Account
+# from src.models.accounts import Account
 from src.app.errors import AccountNotFound
-from src.models.transactions import Transaction
+# from src.models.transactions import Transaction
 from src.config import RUPEE
-from src.models import generate_id
+from src.models import generate_id, Account, Transaction
 
 class BankManager:
     def __init__(self):

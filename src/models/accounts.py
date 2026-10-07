@@ -3,7 +3,7 @@ from src.app.errors import InvalidAmount
 from src.config import RUPEE
 
 class Account:
-    def __init__(self,id: str, name: str, balance: float=0):
+    def __init__(self,_id: str, name: str, balance: float=0):
         self._id = _id # protected attribute
         self.name = name # public attribute
         self.__balance = balance # private attribute
